@@ -9,6 +9,7 @@ public class Oscillator : MonoBehaviour
     public float movementSpeed;
     public float movementDistance;
 
+
     [Header("Movement Position")]
     public Vector3 startingPosition;
     public Vector3 posEnd;
