@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 54311007122832586}
   - component: {fileID: 1528358477678347853}
   - component: {fileID: 5490371785848095152}
+  - component: {fileID: 4809720873146568635}
   m_Layer: 0
   m_Name: Pick Up
   m_TagString: Pick Up
@@ -35,7 +36,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &33117627790695064
 MeshFilter:
@@ -167,3 +168,21 @@ MonoBehaviour:
   objectRenderer: {fileID: 0}
   objectMaterial: {fileID: 0}
   tempColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &4809720873146568635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162076593523988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d78312e7af2643145b93ba2b53309a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementAxis: {x: 0, y: 1, z: 0}
+  movementSpeed: 1
+  movementDistance: 2
+  startingPosition: {x: 0, y: 0, z: 0}
+  posEnd: {x: 0, y: 0, z: 0}
+  negEnd: {x: 0, y: 0, z: 0}
