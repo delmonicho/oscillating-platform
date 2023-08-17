@@ -217,6 +217,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 1162076593523988, guid: 04050b28bf5ccd145834a4972f731012, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1677601359}
+    - targetCorrespondingSourceObject: {fileID: 1162076593523988, guid: 04050b28bf5ccd145834a4972f731012, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1677601360}
   m_SourcePrefab: {fileID: 100100000, guid: 04050b28bf5ccd145834a4972f731012, type: 3}
 --- !u!1 &46224383
 GameObject:
@@ -3416,7 +3419,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 1de58f4dc4d39714986231af129900ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4264,6 +4267,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rotationAxis: {x: 0, y: 1, z: 0}
   rotationSpeed: 1.5
+--- !u!114 &1677601360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607816575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 650f74692ec5f1f4d825452679a47163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxOpacity: 1
+  minOpacity: 0.2
+  opacityStep: 0.001
+  objectRenderer: {fileID: 0}
+  objectMaterial: {fileID: 0}
+  tempColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &1770309382
 GameObject:
   m_ObjectHideFlags: 0
